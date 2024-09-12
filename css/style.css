@@ -1,0 +1,1309 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+
+}
+
+body{
+    background-color: white;
+}
+
+.Header{
+    width: 100vw;
+    padding: 10px;
+    height: 14vh;
+}
+
+.Head{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.First{
+    margin-top: 20px;
+    display: flex;
+   gap: 10px;
+    width: 96px;
+    height: 20px;
+
+
+}
+
+.First p{
+ font-family: cursive;
+ font-weight: 600;
+ font-size: 18px
+}
+
+.Second{
+    margin-top: 20px;
+}
+
+.mav{
+    margin-top: 20px;
+    display: none;
+}
+
+.Second ul{
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* hero */
+
+.hero{
+    display: block;
+    position: relative;
+    height: 100vh;
+}
+.h-sec{
+   
+    width: 41vw;
+    transform: scale(2);
+    position: relative;
+    top: 180px;
+    
+}
+.h-fir{
+
+    background-color: rgb(25, 25, 25);
+    color: white;
+    width: 50vw;
+    margin-left: 34rem;
+    position: absolute;
+    z-index: 1000;
+    top: 250px;
+    padding:  30px ;
+}
+
+.h-fir div{
+    width: 100px;
+}
+.h-fir h2{
+    font-size: 4rem;
+    margin: auto;
+    font-weight: 600;
+}
+ .h-fir #f{
+    font-size: 30px;
+    color: white;
+}
+
+.h-fir p{
+    padding: 10px 0;
+    color: rgb(165, 160, 160);
+    font-size: 19px
+}
+
+.h-fir button{
+    padding: 15px 40px;
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+
+/* container */
+
+.container{
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.im{
+    margin-top: 360px;
+    width: 110px;
+    height: 50px;
+    
+}
+
+.aside{
+    display: flex;
+}
+.side{
+    margin-top: 70px;
+}
+
+
+.side p{
+    font-size: 60px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 66px;
+}
+
+.sider h2{
+padding: 10px;
+font-weight: 600;
+font-size: 30px;
+}
+.sider p{
+    font-size: 17px;
+    color: rgb(148, 148, 148);
+    line-height: 20px;
+}
+
+.sider div{
+    width: 120px;
+}
+
+ .kl{
+    margin-top: -22px;
+}
+
+.mo{
+    margin-top: 70px;
+    position: relative;
+   
+    float: right;
+
+    
+}
+.dull{
+    opacity: 20%;
+    top: 0px;
+    width: 30vw;
+    height: 80vh;
+    
+}
+.bright{
+    position: absolute;
+    right: 90px;
+    width: 35vw;
+    height: 90vh;
+    top: 150px;
+    border: 6px solid grey
+
+}
+
+/* schedule */
+
+.schedule{
+    width: 100vw;
+    margin-top: 190px;
+}
+
+.sch{
+    margin: auto;
+    width: 95%;
+    text-align: center;
+}
+
+.sch h1{
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+.sch p{
+    color: rgb(117, 112, 112);
+    padding: 30px;
+}
+.ll
+{
+    margin: auto;
+    width: 120px;
+}
+
+/* classic */
+
+.classic{
+    width: 100vw;
+    margin-top: 60px;
+}
+.classicc{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 110px;
+    background-color: rgb(234, 234, 234);
+}
+.hov:hover{
+    background-color:rgb(222, 222, 254)
+}
+
+.classiccc{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 152px;
+    background-color: rgb(234, 234, 234);
+}
+.classicp{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 158px;
+    background-color: rgb(234, 234, 234);
+}
+.classict{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 119px;
+    background-color: rgb(234, 234, 234);
+}
+
+
+.para{
+    background-color: rgb(62, 62, 227);
+}
+.para p{
+   padding: 25px 60px;
+   margin-top: 10px;
+   color: white;
+   font-size: 19px;
+   font-weight: 600;
+}
+
+.hh{
+    margin-top: 32px;
+    font-size: 26px;
+    font-weight: 600;
+}
+.word{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+.word #imgg{
+    width: 70px;
+    height:70px;
+}
+.wor h3{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.wor p{
+    font-size: 13px;
+    color: rgb(100, 99, 99);
+    text-align: center;
+
+}
+
+
+.a-button{
+    margin-top: 90px;
+    
+    display: flex;
+    align-items: center;
+    
+
+    
+}
+
+
+
+.a-button button{
+    padding: 20px 70px;
+    font-weight: 700;
+    border: 4px solid blue;
+    margin: auto;
+    color: blue;
+    background-color: white;
+
+}
+
+.a-button button:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+/* speakers */
+
+
+.speaker{
+    margin-top: 16rem;
+  
+    background-image: linear-gradient(to right bottom, rgba(6, 6, 132, 0), rgb(22, 22, 91), rgb(110, 110, 226)), url(https://templatekit.tokopress.com/eventkit/wp-content/uploads/sites/3/2020/02/smiling-audience-applauding-at-a-business-seminar-PLQAUXK-1536x1024.jpg);
+    padding: 60px;
+    width: 100vw;
+    color: white;
+}
+
+.speakers{
+    display: flex;
+    padding:80px 0px ;
+    gap: 40px;
+    justify-content: space-between;
+}
+.s-word{
+    width: 300px;
+}
+.s-word h2{
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.s-word p{
+    margin-top: 40px;
+}
+
+.s-word button{
+    margin-top: 40px;
+    padding: 15px 50px;
+    background-color:transparent;
+    color: white;
+    border: 4px solid white;
+    font-weight: 600;
+}
+
+.s-word button:hover{
+    background-color: white;
+    color:blue;
+}
+.s-im{
+    filter: contrast(0%) brightness(2);
+    width: 120px;
+}
+.card-body{
+    text-align: center;
+   
+}
+.card-img-top{
+    cursor: pointer;
+}
+
+.card-img-top:hover{
+   opacity: 80%;
+}
+.carding{
+    gap: 10px;
+    display: flex;
+}
+.css{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.pp{
+    color: rgb(92, 92, 92);
+    font-weight: 500;
+    font-size: 17px;
+}
+
+
+/* subscription */
+
+.subscription{
+    margin-top: 200px;
+    width: 100vw;
+}
+
+.subb{
+
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 30px;
+}
+
+.sub{
+    border: 5px solid rgb(222, 215, 215);
+    padding:70px;
+    height: 115vh;
+    text-align: center;
+}
+.sec{
+    margin-top: 80px;
+}
+
+.sub:hover{
+background-color: rgb(242, 242, 248);
+}
+.sub h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.subimg{
+ width: 180px;
+ padding: 40px;
+}
+.sub h3{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.sub p{
+    font-size: 17px;
+    color: rgb(101, 96, 96);
+    font-weight: 400;
+}
+
+.sub button{
+    margin-top: 30px;
+    padding: 15px 45px;
+    border-radius: 5px;
+    background-color: rgb(25, 63, 236);
+    color: white;
+}
+
+.subword{
+    margin-top: 160px;
+}
+
+.subword h1{
+ font-size: 60px
+}
+.subword p{
+    margin-top: 30px;
+    font-size: 17px;
+    color: rgb(101, 96, 96);
+}
+.mar{
+    margin-top: 80px;
+ 
+}
+#mark i{
+    color: rgb(25, 63, 236);
+    font-size: 25px;
+    font-weight: 400;
+    padding: 0px 15px;
+}
+
+/* sponsor
+ */
+ .sponsors{
+    width: 100vw;
+    margin-top: 200px;
+ }
+ .sponsor{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+ }
+.spon-im{
+    width: 120px;
+    margin: auto;
+}
+.sponso-1{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.sponso-2{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+ .sponsor-img{
+    width: 100px;
+    height: 100px;
+    opacity: 50%;
+ }
+ .sponsor-img:hover{
+opacity: 100%;
+ }
+
+ /* last-session */
+
+ .last-sec{
+    width: 100vw;
+    margin-top: 150px;
+    background-image: url(/css/img/pexels-fauxels-3184360.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+ }
+ .lasts{
+    width: 95%;
+    margin: auto;
+    opacity: 80%;
+    height: 40vh;
+    position: absolute;
+    left: 20px;
+    top: 365px;
+    background-color: rgb(77,100,250);
+    border: 1px red;
+ }
+
+ .last-right{
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 100%;
+    color: white;
+    padding: 50px ;
+ }
+.venue{
+    display: flex;
+    gap: 20px;
+}
+ .venue i{
+    margin-top: 5px;
+    font-size: 70px;
+ }
+ 
+ /* footer */
+
+
+ .footer{
+    width: 100vw;
+    margin-top: 90px;
+ }
+ 
+ .footer h3{
+    font-weight: 800;
+    font-size: 25px;
+    font-family: sans-serif;
+ }
+
+ .footer p{
+    color: #6D6F82;
+ }
+ .foot{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 90px
+    ;
+    justify-content: space-evenly;
+ }
+ .one{
+    width: 35vw;
+ }
+
+ .tti{
+    margin-top: 40px;
+    gap: 30px;
+ }
+
+ .tti i{
+    font-size: 30px;
+    color: rgb(77,100,250);
+ }
+
+ hr{
+    margin-top: 90px;
+ }
+
+ /* copyright */
+
+ .copyright{
+    margin: auto;
+    text-align: center;
+ }
+
+
+
+
+
+
+
+/* media query */
+
+@media only screen and (max-width: 999px) {
+   /* header */
+  
+    .Second{
+        display: none;
+    }
+
+    .mav{
+        display: block;
+        color: blue;
+    }
+    .h-sec{
+        width: 80vw;
+        position: relative;
+        top: 130px;
+        
+    }
+    .h-fir{
+        margin: auto;
+        width: 100vw;
+        color: white;
+        z-index: 1000;
+        top: 250px;
+        padding:  10px ;
+    }
+
+    
+.h-fir h2{
+    font-size: 2rem;
+    margin: auto;
+    font-weight: 600;
+}
+ .h-fir #f{
+    font-size: 16px;
+    color: white;
+}
+
+.h-fir p{
+    padding: 10px 0;
+    color: rgb(165, 160, 160);
+    font-size: 12px
+}
+
+.h-fir button{
+    
+    width: 90vw;
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+
+
+
+.container {
+
+    margin-top: -10px;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  
+  }
+
+  .container .side {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .container .mo {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+  }
+
+
+.aside{
+    display: block ;
+}
+
+
+.im{
+    margin-top: 50px;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    
+}
+.side{
+    margin-top: 130px;
+}
+
+
+.side p{
+    font-size: 40px;
+    padding: 10px;
+    font-weight: 500;
+    text-align: center;
+   
+    line-height: 34px;
+  
+}
+.sider{
+    text-align: center;
+}
+.sider h2{
+font-weight: 600;
+font-size: 25px;
+}
+.sider p{
+    font-size: 17px;
+    color: rgb(148, 148, 148);
+    line-height: 30px;
+}
+
+.sider div{
+    width: 120px;
+    margin: auto;
+}
+
+
+.mo{
+    margin-top: 70px;
+    position: relative;    
+}
+.dull{
+    top: 10px;
+    width: 85vw;
+    height: 80vh;
+    right: 50px;
+    
+}
+.bright{
+    right: 20px;
+    width: 85vw;
+    height: 80vh;
+    top: 90px;
+
+}
+
+
+
+/* schedule */
+
+.schedule{
+    width: 100vw;
+    margin-top: 120px;
+}
+
+/* classic */
+
+
+.classic{
+    width: 100vw;
+    margin-top: 60px;
+}
+.classicc{
+    display: block;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.hov:hover{
+    background-color:rgb(222, 222, 254)
+}
+
+.classiccc{
+    display: block;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.classicp{
+    display: block;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+   
+}
+.classict{
+    display: block;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(234, 234, 234);
+}
+.para{
+    background-color: rgb(62, 62, 227);
+}
+.para p{
+   padding: 25px 60px;
+   margin-top: 10px;
+   color: white;
+   font-size: 19px;
+   font-weight: 600;
+}
+
+.hh{
+    margin-top: 32px;
+    font-size: 26px;
+    font-weight: 600;
+}
+.word{
+    display: block;
+    margin-top: 20px;
+    gap: 20px;
+    padding: 30px;
+}
+.word #imgg{
+    width: 70px;
+    height:70px;
+    margin: auto;
+}
+
+
+.a-button{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    
+
+    
+}
+
+
+
+.a-button button{
+    padding: 15px 120px;
+    font-weight: 700;
+    border: 4px solid blue;
+    margin: auto;
+    color: blue;
+    background-color: white;
+
+}
+
+.a-button button:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+
+/* speakers */
+
+
+.speaker{
+    margin-top: 8rem;
+    background-image: linear-gradient(to right bottom, rgba(6, 6, 132, 0), rgb(105, 105, 242), rgb(110, 110, 226)), url(https://templatekit.tokopress.com/eventkit/wp-content/uploads/sites/3/2020/02/smiling-audience-applauding-at-a-business-seminar-PLQAUXK-1536x1024.jpg);
+
+    padding: 40px;
+
+    color: white;
+}
+
+.speakers{
+    width: 95%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.s-word h2{
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+.s-word button{
+    margin-top: 40px;
+    padding: 15px 80px;
+    background-color:transparent;
+    color: white;
+    border: 4px solid white;
+    font-weight: 600;
+}
+
+.s-word button:hover{
+    background-color: white;
+    color:blue;
+}
+.s-im{
+    filter: contrast(0%) brightness(2);
+    width: 90px;
+    margin: auto;
+}
+
+.card{
+    margin-top: 30px;
+}
+
+.carding{
+    gap: 10px;
+    display: block;
+}
+
+
+
+
+
+/* subscription */
+
+.subscription{
+    margin-top: 200px;
+    width: 100vw;
+}
+
+.subb{
+    display: block;
+    width: 85%;
+    margin: auto;
+}
+
+.sub{
+    border: 5px solid rgb(222, 215, 215);
+    padding: 60px;
+    height: max-content;
+    text-align: center;
+}
+.sec{
+    margin-top: 80px;
+}
+
+.sub:hover{
+background-color: rgb(242, 242, 248);
+}
+.sub h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.subimg{
+ width: 180px;
+ margin: auto;
+ padding: 40px;
+}
+.subword{
+    margin-top: 90px;
+}
+
+.subword h1{
+ font-size: 40px
+}
+.subword p{
+    margin-top: 30px;
+    font-size: 17px;
+    color: rgb(101, 96, 96);
+}
+.mar{
+    margin-top: 50px;
+ 
+}
+
+/* sponsor
+ */
+ .sponsors{
+    margin-top: 110px;
+ }
+ .sponsor{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+ }
+.spon-im{
+    width: 120px;
+    margin: auto;
+}
+.sponso-1{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+
+}
+
+.sponso-2{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+}
+ .sponsor-img{
+    width:  70px;
+    height: 70px;
+    opacity: 50%;
+    margin: auto;
+ }
+ .sponsor-img:hover{
+opacity: 100%;
+ }
+
+ 
+ /* last-session */
+
+ .last-sec{
+    width: 100vw;
+    margin-top: 150px;
+    background-image: url(/css/img/pexels-fauxels-3184360.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 135vh;
+    position: relative;
+
+ }
+ .lasts{
+    width: 100vw;
+    opacity: 80%;
+    height: inherit;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+ }
+
+ .last-right{
+    text-align: center;
+    display: block;
+    justify-content: space-evenly;
+    opacity: 100%;
+    color: white;
+    padding: 50px ;
+ }
+.venue{
+    margin-top: 50px;
+    display: block;
+    gap: 20px;
+}
+ .venue i{
+    margin-top: 5px;
+    font-size: 70px;
+ }
+ 
+ /* footer */
+
+
+ .footer{
+    width: 100vw;
+    margin-top: 90px;
+ }
+ 
+ .footer h3{
+    font-weight: 500;
+    font-family: sans-serif;
+ }
+
+ .footer p{
+    color: #6D6F82;
+ }
+ .foot{
+    display: block;
+    width: 90%;
+    margin: auto;
+  
+ }
+ .one{
+    width: 80vw;
+ }
+ .two{
+    margin-top: 40px;
+ }
+
+ .three{
+    margin-top: 40px;
+ }
+
+
+ .tti{
+    margin-top: 40px;
+    gap: 30px;
+ }
+
+ .tti i{
+    font-size: 30px;
+    color: rgb(77,100,250);
+ }
+
+ hr{
+    margin-top: 90px;
+ }
+
+ /* copyright */
+
+ .copyright{
+    margin: auto;
+    text-align: center;
+ }
+
+}
+
+
+@media only screen and (min-width: 999px) and (max-width: 1900px) {
+  
+    
+
+/* speakers */
+
+
+.speaker{
+    margin-top: 16rem;
+  
+    background-image: linear-gradient(to right bottom, rgba(6, 6, 132, 0), rgb(105, 105, 242), rgb(110, 110, 226)), url(https://templatekit.tokopress.com/eventkit/wp-content/uploads/sites/3/2020/02/smiling-audience-applauding-at-a-business-seminar-PLQAUXK-1536x1024.jpg);
+    padding: 60px;
+    width: 100vw;
+    color: white;
+}
+
+.speakers{
+    display: flex;
+    padding:80px 0px ;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.s-word h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+
+.s-word button{
+    margin-top: 40px;
+    padding: 15px 30px;
+    background-color:transparent;
+    color: white;
+    border: 4px solid white;
+    font-weight: 600;
+}
+
+.carding{
+    width: 60vw;
+    gap: 10px;
+    display: flex;
+}
+
+
+ /* last-session */
+
+ .last-sec{
+    width: 100vw;
+    margin-top: 150px;
+    background-image: url(/css/img/pexels-fauxels-3184360.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+ }
+ .lasts{
+    width: 95%;
+    margin: auto;
+    opacity: 80%;
+    height: 40vh;
+    position: absolute;
+    left: 20px;
+   bottom: 0px;
+    background-color: rgb(77,100,250);
+    border: 1px red;
+ }
+
+ 
+
+/* classic */
+
+.classic{
+    width: 100vw;
+    margin-top: 60px;
+}
+.classicc{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: rgb(234, 234, 234);
+}
+.hov:hover{
+    background-color:rgb(222, 222, 254)
+}
+
+.classiccc{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: rgb(234, 234, 234);
+}
+.classicp{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: rgb(234, 234, 234);
+}
+.classict{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: rgb(234, 234, 234);
+}
+
+
+/* container */
+
+.container{
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.im{
+    margin-top: 360px;
+    width: 100px;
+    height: 50px;
+    
+}
+
+.aside{
+    display: flex;
+    width: 40vw;
+}
+.side{
+    margin-top: 50px;
+    width: 95%;
+}
+
+
+.side p{
+    font-size: 60px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 66px;
+}
+
+
+.sider h2{
+padding: 10px;
+font-weight: 600;
+font-size: 20px;
+}
+.sider p{
+    font-size: 17px;
+    color: rgb(148, 148, 148);
+    line-height: 20px;
+}
+
+.sider div{
+    width: 100px;
+}
+
+ .kl{
+    margin-top: -22px;
+}
+
+.mo{
+    margin-top: 70px;
+    position: relative;
+   
+    float: right;
+
+    
+}
+.dull{
+    opacity: 20%;
+    top: 0px;
+    width: 30vw;
+    height: 60vh;
+    
+}
+.bright{
+    position: absolute;
+    right: 90px;
+    width: 35vw;
+    height: 70vh;
+    top: 150px;
+    border: 6px solid grey
+
+}
+
+
+}
