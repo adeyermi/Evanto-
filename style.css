@@ -876,13 +876,13 @@ font-size: 25px;
     width: 100vw;
     color: white;
 }
-
+.block{
+    width: 85%;
+    margin:auto;
+    text-align: center;
+}
 .speakers{
-    width: 50%;
-    text-align: center;
-    margin: auto;
     display: block;
-    text-align: center;
     padding: 10px;
 }
 
