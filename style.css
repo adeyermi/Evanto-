@@ -626,7 +626,7 @@ opacity: 100%;
         color: blue;
     }
     .h-sec{
-        width: 80vw;
+        width: 60vw;
         position: relative;
         top: 130px;
         
@@ -873,12 +873,13 @@ font-size: 25px;
     background-image: linear-gradient(to right bottom, rgba(6, 6, 132, 0), rgb(105, 105, 242), rgb(110, 110, 226)), url(https://templatekit.tokopress.com/eventkit/wp-content/uploads/sites/3/2020/02/smiling-audience-applauding-at-a-business-seminar-PLQAUXK-1536x1024.jpg);
 
     padding: 40px;
-
+    width: 100vw;
     color: white;
 }
 
 .speakers{
-    width: 95%;
+    width: 50%;
+    text-align: center;
     margin: auto;
     display: block;
     text-align: center;
