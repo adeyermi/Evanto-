@@ -25,6 +25,10 @@ body{
     justify-content: space-between;
 }
 
+.head-img{
+    width: 20px;
+    height: 20px;
+}
 .First{
     margin-top: 20px;
     display: flex;
